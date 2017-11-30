@@ -1,0 +1,27 @@
+<!-- See documentation at http://doc.nuxeo.com/x/HgIz -->
+<package type="addon" name="nuxeo-audit-storage-marketplace-package" version="@VERSION@">
+  <title>Nuxeo audit storage marketplace package</title>
+  <description>
+    <p>This add-on enables to specify one or several storages for the Nuxeo Audit logs.</p>
+    <p>For additional information please read <a href="https://github.com/nuxeo/nuxeo-audit-storage">documentation</a></p>
+  </description>
+  <!-- <home-page>http://doc.nuxeo.com/</home-page> -->
+  <vendor></vendor>
+  <installer restart="true" />
+  <uninstaller restart="true" />
+  <!-- <hotreload-support>false</hotreload-support> -->
+  <!-- <require-terms-and-conditions-acceptance>false</require-terms-and-conditions-acceptance> -->
+  <!-- Nuxeo Validation: none | inprocess | primary_validation | nuxeo_certified -->
+  <nuxeo-validation>none</nuxeo-validation>
+  <!-- Production State: production_ready | testing | proto -->
+  <production-state>testing</production-state>
+  <supported>false</supported>
+  <platforms>
+    <platform>server-@DISTRIB_VERSION@</platform>
+    <platform>server-@DISTRIB_VERSION@-HF*</platform>
+  </platforms>
+  <license>Apache License, Version 2.0</license>
+  <license-url>http://www.apache.org/licenses/LICENSE-2.0</license-url>
+  <!-- Visibility: PRIVATE | MARKETPLACE | DEV | PUBLIC -->
+  <visibility>DEV</visibility>
+</package>
