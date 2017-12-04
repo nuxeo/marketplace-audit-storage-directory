@@ -60,7 +60,7 @@
 
   <scm>
     <connection>scm:git:git://github.com/nuxeo/marketplace-audit-storage.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com:nuxeo/audit-storage.git</developerConnection>
+    <developerConnection>scm:git:ssh://git@github.com:nuxeo/marketplace-audit-storage.git</developerConnection>
     <url>https://github.com/nuxeo/marketplace-audit-storage</url>
   </scm>
 
