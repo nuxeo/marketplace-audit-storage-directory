@@ -1,4 +1,4 @@
-<project name="nuxeo-audit-storage-tests" xmlns:nx="urn:nuxeo-build"
+<project name="nuxeo-audit-storage-directory-itests" xmlns:nx="urn:nuxeo-build"
   xmlns:artifact="urn:nuxeo-artifact">
   <taskdef resource="org/nuxeo/build/antlib.xml" uri="urn:nuxeo-build" />
   <taskdef resource="org/nuxeo/build/artifact/antlib.xml" uri="urn:nuxeo-artifact" />
@@ -11,11 +11,11 @@
   <import file="${out.dir}/nuxeo-ftest.xml" />
 
   <property name="mp.install"
-    value="file:${out.dir}/marketplace-audit-storage-${maven.project.version}.zip" />
+    value="file:${out.dir}/marketplace-audit-storage-directory-${maven.project.version}.zip" />
   <target name="prepare-environment" depends="_init,prepare-db,prepare-tomcat">
     <copy todir="${out.dir}">
       <artifact:file
-        key="org.nuxeo.marketplace.audit.storage:marketplace-audit-storage::zip" />
+        key="org.nuxeo.marketplace.audit.storage:marketplace-audit-storage-directory::zip" />
     </copy>
   </target>
 
