@@ -10,7 +10,7 @@
   <artifactId>marketplace-audit-storage-directory-parent</artifactId>
   <packaging>pom</packaging>
   <name>Nuxeo Audit Storage Directory Marketplace Package Parent</name>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
 
   <modules>
     <module>marketplace</module>
