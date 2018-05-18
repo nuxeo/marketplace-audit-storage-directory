@@ -24,7 +24,7 @@
     <dependency>
       <groupId>org.nuxeo.ecm.platform</groupId>
       <artifactId>nuxeo-audit-storage-directory</artifactId>
-      <version>9.10-HF08-SNAPSHOT</version>
+      <version>9.10-HF09-SNAPSHOT</version>
     </dependency>
 
     <!-- Add jna-4.4.0 dependency as provided because of a conflict between
